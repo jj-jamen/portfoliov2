@@ -1,25 +1,12 @@
-import React from 'react';
-import { Box, HStack, Button } from '@chakra-ui/react';
+import React, { useState, useEffect } from 'react';
+import DesktopTopNav from './desktopTopNav';
+import MobileTopNav from './mobileTopNav';
 
 const Topnav = () => {
   return (
     <>
-      <Box display='flex' justifyContent='center' marginTop={5}>
-        <HStack spacing={6}>
-          <Button borderRadius={10} background={'transparent'} border={'0.5px gray solid'} size={'sm'}>
-            ABOUT
-          </Button>
-          <Button borderRadius={10} background={'transparent'} border={'1px gray solid'} size={'sm'}>
-            PROJECTS
-          </Button>
-          <Button borderRadius={10} background={'transparent'} border={'1px gray solid'} size={'sm'}>
-            PAST JOBS
-          </Button>
-          <Button borderRadius={10} background={'transparent'} border={'1px gray solid'} size={'sm'}>
-            CONTACT
-          </Button>
-        </HStack>
-      </Box>
+      <DesktopTopNav />
+      <MobileTopNav />
     </>
   );
 };
