@@ -9,10 +9,10 @@ const AboutSection = () => {
       <Box bg='white'>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={1}>
           <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
-            <AboutSectionRight />
+            <AboutSectionLeft />{' '}
           </Box>
           <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
-            <AboutSectionLeft />
+            <AboutSectionRight />
           </Box>
         </SimpleGrid>
       </Box>
