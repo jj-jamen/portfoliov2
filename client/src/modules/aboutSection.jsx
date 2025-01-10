@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect, useState } from 'react';
 import { SimpleGrid, Box } from '@chakra-ui/react';
 import AboutSectionLeft from './aboutSectionLeft';
 import AboutSectionRight from './aboutSectionRight';

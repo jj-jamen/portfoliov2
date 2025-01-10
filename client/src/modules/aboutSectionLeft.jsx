@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@chakra-ui/react';
 import { ReactComponent as Jjjamen } from '../assets/Jjjamen.svg';
 
-const AboutSectionLeft = () => {
+const AboutSectionRight = () => {
   return (
     <Box bg={'transparent'} display={{ base: 'none', md: 'flex' }} justifyContent='center' alignItems='center' minH={'100vh'}>
       <Jjjamen style={{ width: '900px', height: '900px' }} />
@@ -10,4 +10,4 @@ const AboutSectionLeft = () => {
   );
 };
 
-export default AboutSectionLeft;
+export default AboutSectionRight;
