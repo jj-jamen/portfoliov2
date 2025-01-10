@@ -1,21 +1,19 @@
 import React from 'react';
 import { SimpleGrid, Box } from '@chakra-ui/react';
+import AboutSectionLeft from './aboutSectionLeft';
+import AboutSectionRight from './aboutSectionRight';
 
 const AboutSection = () => {
   return (
-    <SimpleGrid
-      columns={{ base: 1, md: 1 }}
-      spacing={2}
-      marginLeft={2.5}
-      marginRight={2.5}
-      minH='100vh'
-      maxH='100vh'
-      overflow='hidden'
-      id='AboutSection'>
-      <Box bg='gray'>
+    <SimpleGrid columns={{ base: 1, md: 1 }} spacing={2} marginLeft={2.5} marginRight={2.5} minH='100vh' overflow='hidden' id='AboutSection'>
+      <Box bg='white'>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={1}>
-          <Box bg='white' w={'full'} minH='100vh' maxH='100vh' overflow='hidden'></Box>
-          <Box bg='white' w={'full'} minH='100vh' maxH='100vh' overflow='hidden'></Box>
+          <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
+            <AboutSectionRight />
+          </Box>
+          <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
+            <AboutSectionLeft />
+          </Box>
         </SimpleGrid>
       </Box>
     </SimpleGrid>
