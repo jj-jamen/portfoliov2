@@ -24,12 +24,12 @@ const JobsSection = () => {
             WHERE I'VE WORKED
           </Text>
           <SimpleGrid columns={3} spacing={20} paddingTop={'18vh'}>
-            <ShopifyLogo style={{ width: '300', height: '100' }} />
-            <KatiesBucklesLogo style={{ width: '300', height: '100' }} />
-            <AmazonLogo style={{ width: '300', height: '100' }} />
-            <FrontierLogo style={{ width: '300', height: '100' }} />
-            <AirbnbLogo style={{ width: '300', height: '100' }} />
-            <ComcastLogo style={{ width: '300', height: '100' }} />
+            <ShopifyLogo style={{ width: '20vw', height: '5vw' }} size />
+            <KatiesBucklesLogo style={{ width: '20vw', height: '5vw' }} />
+            <AmazonLogo style={{ width: '20vw', height: '5vw' }} />
+            <FrontierLogo style={{ width: '20vw', height: '5vw' }} />
+            <AirbnbLogo style={{ width: '20vw', height: '5vw' }} />
+            <ComcastLogo style={{ width: '20vw', height: '5vw' }} />
           </SimpleGrid>
         </VStack>
       </Box>
