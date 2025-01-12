@@ -1,9 +1,9 @@
 import React from 'react';
-import Topnav from '../modules/topnav';
-import AboutSection from '../modules/aboutSection';
-import ProjectsSection from '../modules/projectsSection';
-import ContactSection from '../modules/contactSection';
-import JobsSection from '../modules/jobsSection';
+import Topnav from '../components/topnav';
+import AboutSection from '../components/aboutSection';
+import ProjectsSection from '../components/projectsSection';
+import ContactSection from '../components/contactSection';
+import JobsSection from '../components/jobsSection';
 
 const Home = () => {
   return (
