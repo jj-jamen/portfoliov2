@@ -6,7 +6,6 @@ import { ReactComponent as AmazonLogo } from '../assets/AmazonLogo.svg';
 import { ReactComponent as FrontierLogo } from '../assets/FrontierLogo.svg';
 import { ReactComponent as AirbnbLogo } from '../assets/AirbnbLogo.svg';
 import { ReactComponent as ComcastLogo } from '../assets/ComcastLogo.svg';
-import { color } from 'framer-motion';
 
 const JobsSection = () => {
   return (
@@ -17,8 +16,7 @@ const JobsSection = () => {
       marginLeft={2.5}
       marginRight={2.5}
       minH={'100vh'}
-      overflow='hidden'
-      id='JobsSection'>
+      overflow='hidden'>
       <Box bg='transparent' display={'flex'} justifyContent={'center'} alignItems='middle'>
         <VStack>
           <Text fontFamily="'Montserrat', sans-serif" fontStyle='italic' fontWeight='900' fontSize={'2.5vw'} paddingTop={'18vh'}>

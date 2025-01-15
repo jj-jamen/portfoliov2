@@ -12,8 +12,7 @@ const AboutSection = () => {
       marginLeft={2.5}
       marginRight={2.5}
       minH='100vh'
-      overflow='hidden'
-      id='AboutSection'>
+      overflow='hidden'>
       <Box bg='white'>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={1}>
           <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
