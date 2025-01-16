@@ -110,8 +110,8 @@ const DesktopTopNav = () => {
               width: '100%',
             },
           }}>
-          <Link to='ContactSection' smooth='true' duration={300}>
-            CONTACT
+          <Link to='ResourcesSection' smooth='true' duration={300}>
+            RESOURCES
           </Link>
         </Button>
       </HStack>

@@ -2,7 +2,7 @@ import React from 'react';
 import Topnav from '../desktopComponents/topnav.jsx';
 import AboutSection from '../desktopComponents/aboutSection.jsx';
 import ProjectsSection from '../desktopComponents/projectsSection.jsx';
-import ContactSection from '../desktopComponents/contactSection.jsx';
+import ResourcesSection from '../desktopComponents/resourcesSection.jsx';
 import JobsSection from '../desktopComponents/jobsSection.jsx';
 import Maintenance from './maintenance.jsx';
 import { Box } from '@chakra-ui/react';
@@ -21,8 +21,8 @@ const Home = () => {
         <Box id='ProjectsSection' scrollSnapAlign='end'>
           <ProjectsSection />
         </Box>
-        <Box id='ContactSection' scrollSnapAlign='end'>
-          <ContactSection />
+        <Box id='ResourcesSection' scrollSnapAlign='end'>
+          <ResourcesSection />
         </Box>
         <Maintenance />
       </Box>
