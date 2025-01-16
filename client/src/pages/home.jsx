@@ -9,24 +9,24 @@ import { Box } from '@chakra-ui/react';
 
 const Home = () => {
   return (
-    <>
+    <Box>
       <Topnav />
       <Box>
-        <Box id='AboutSection'>
+        <Box id='AboutSection' scrollSnapAlign='end'>
           <AboutSection />
         </Box>
-        <Box id='JobsSection'>
+        <Box id='JobsSection' scrollSnapAlign='end'>
           <JobsSection />
         </Box>
-        <Box id='ProjectsSection'>
+        <Box id='ProjectsSection' scrollSnapAlign='end'>
           <ProjectsSection />
         </Box>
-        <Box id='ContactSection'>
+        <Box id='ContactSection' scrollSnapAlign='end'>
           <ContactSection />
         </Box>
         <Maintenance />
       </Box>
-    </>
+    </Box>
   );
 };
 

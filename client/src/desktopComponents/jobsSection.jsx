@@ -19,7 +19,7 @@ const JobsSection = () => {
       overflow='hidden'>
       <Box bg='transparent' display={'flex'} justifyContent={'center'} alignItems='middle'>
         <VStack>
-          <Text fontFamily="'Montserrat', sans-serif" fontStyle='italic' fontWeight='900' fontSize={'2.5vw'} paddingTop={'18vh'}>
+          <Text fontFamily="'Montserrat', sans-serif" fontWeight='900' fontSize={'2.5vw'} paddingTop={'18vh'}>
             WHERE I'VE WORKED
           </Text>
           <SimpleGrid columns={3} spacing={20} paddingTop={'18vh'}>

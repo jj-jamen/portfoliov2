@@ -86,7 +86,7 @@ const DesktopTopNav = () => {
             },
           }}>
           <Link to='ProjectsSection' smooth='true' duration={300}>
-            PROJECTS
+            WEB APPS AND PROJECTS
           </Link>
         </Button>
         <Button

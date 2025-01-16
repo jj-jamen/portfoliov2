@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Text, VStack, Divider, HStack } from '@chakra-ui/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6';
 
 const AboutSectionLeft = () => {
   return (
@@ -20,13 +19,13 @@ const AboutSectionLeft = () => {
           </Text>
           <HStack spacing={'4vw'} paddingTop={'10vh'}>
             <a href='https://www.facebook.com/codingwithjj' target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faFacebook} size='2x' color='#8c52ff' />
+              <FaFacebook size={'2em'} color='#8c52ff' />
             </a>
             <a href='https://github.com/jj-jamen' target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faGithub} size='2x' color='#8c52ff' />
+              <FaGithub size={'2em'} color='#8c52ff' />
             </a>
             <a href='https://www.linkedin.com/in/jjjamen/' target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faLinkedin} size='2x' color='#8c52ff' />
+              <FaLinkedin size={'2em'} color='#8c52ff' />
             </a>
           </HStack>
         </VStack>

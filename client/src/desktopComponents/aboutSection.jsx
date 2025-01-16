@@ -13,7 +13,7 @@ const AboutSection = () => {
       marginRight={2.5}
       minH='100vh'
       overflow='hidden'>
-      <Box bg='white'>
+      <Box>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={1}>
           <Box bg='transparent' w={'full'} minH='100vh' overflow='hidden'>
             <AboutSectionLeft />{' '}
